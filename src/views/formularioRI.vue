@@ -6,15 +6,14 @@ import footerPag from '@/components/footerPag.vue';
 
 <template>
     <navbar />
+    
     <div class="container">
         <div class="row d-flex justify-content-center my-3">
             <button class="btn">
                 <router-link to="/iniciarseccion" class="btninit">Iniciar sesion
-                    </router-link>
-                    <h1>preguntelen al profe como arreglar o que funcione esto que es que quiero que con un boton cambie de componente en este caso a la vista de inicio y de registro :3</h1>
+                </router-link>
             </button>
             <div class="col-md-4">
-                <RouterView  />
 
             </div>
         </div>

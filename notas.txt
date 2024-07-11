@@ -1,0 +1,1 @@
+cambiar boostrap por tailwind  :D
